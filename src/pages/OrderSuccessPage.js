@@ -43,7 +43,7 @@ export default function OrderSuccessPage() {
       existing.unshift(newOrder);
       localStorage.setItem('localbuy_orders', JSON.stringify(existing));
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+ 
   }, []);
 
   return (
